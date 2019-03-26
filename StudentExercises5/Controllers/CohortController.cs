@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using StudentExercises6.Models;
+using StudentExercises5.Models;
 
 //Cohort JSON representation should include array of students, and the instructor.
 
-namespace StudentExercises6.Controllers
+namespace StudentExercises5.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
